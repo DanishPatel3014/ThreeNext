@@ -12,7 +12,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 export default function Experience() {
 
   const model = useLoader(GLTFLoader,'../../hamburger.glb')
-  
+  console.log(model);
 
   const {position} = useControls({
     position:
